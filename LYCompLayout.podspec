@@ -25,7 +25,7 @@ Created by Luo Yu.
 
   s.ios.deployment_target = '8.2'
 
-  s.source_files = 'LYCompLayout/Classes/**/*'
+  s.source_files = 'LYCompLayout/Classes/Models/*', 'LYCompLayout/Classes/**/*'
   
   # s.resource_bundles = {
   #   'LYCompLayout' => ['LYCompLayout/Assets/*.png']
