@@ -9,5 +9,7 @@
 #ifndef LYCompLayout_h
 #define LYCompLayout_h
 
+#import <LYCompLayout/LYLayoutModel.h>
+#import <LYCompLayout/LYLayoutConf.h>
 
 #endif /* LYCompLayout_h */
