@@ -11,5 +11,6 @@
 
 #import <LYCompLayout/LYLayoutModel.h>
 #import <LYCompLayout/LYLayoutConf.h>
+#import <LYCompLayout/LYLayoutItem.h>
 
 #endif /* LYCompLayout_h */
