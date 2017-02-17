@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LYCompLayout_Example' do
+  pod 'LYCompLayout', :path => '../'
+
+  target 'LYCompLayout_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
