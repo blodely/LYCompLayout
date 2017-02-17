@@ -10,4 +10,38 @@
 
 @interface LYLayoutModel : NSObject
 
+/**
+ UID, Not null
+ */
+@property (nonatomic, strong) NSString *UID;
+
+/**
+ Persist Object
+ */
+- (void)persist;
+
+/**
+ Export configuration as 'plist' format.
+ */
+- (void)exportToPlist;
+
+/**
+ Import configuration data from 'plist' file at specific filepath
+
+ @param filepath plist file path
+ */
+- (void)readPlistAtFilepath:(NSString *)filepath;
+
+/**
+ Export configuration as 'XML' format.
+ */
+- (void)exportToXML;
+
+/**
+ Import configuration data from 'XML' file at specific filepath
+
+ @param filepath XML file path
+ */
+- (void)readXMLAtFilepath:(NSString *)filepath;
+
 @end
