@@ -8,7 +8,18 @@
 
 #import <UIKit/UIKit.h>
 #import <LYCompLayout/LYLayoutModel.h>
+#import <LYCompLayout/LYLayoutItem.h>
 
 @interface LYLayoutConf : LYLayoutModel
+
+/**
+ An unit length in vertical
+ */
+@property (nonatomic, assign) CGFloat unitVertical;
+
+/**
+ An unit length in horizontal
+ */
+@property (nonatomic, assign) CGFloat unitHorizontal;
 
 @end
