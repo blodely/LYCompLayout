@@ -8,6 +8,45 @@
 
 #import "LYLayoutModel.h"
 
+@interface LYLayoutModel () {
+}
+@end
+
 @implementation LYLayoutModel
+
+- (instancetype)init {
+	if (self = [super init]) {
+		
+	}
+	return self;
+}
+
+// MARK: - PROPERTY
+
+- (void)setUID:(NSString *)UID {
+	_UID = UID;
+}
+
+// MARK: - METHOD
+
+- (void)persist {
+	
+}
+
+- (void)exportToPlist {
+	
+}
+
+- (void)readPlistAtFilepath:(NSString *)filepath {
+	
+}
+
+- (void)exportToXML {
+	
+}
+
+- (void)readXMLAtFilepath:(NSString *)filepath {
+	
+}
 
 @end
