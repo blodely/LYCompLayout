@@ -5,34 +5,36 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'LYCompLayout'
-  s.version          = '0.1.0'
-  s.summary          = 'components layout for iOS app'
+	s.name             = 'LYCompLayout'
+	s.version          = '0.1.0'
+	s.summary          = 'components layout for iOS app'
 
-  s.description      = <<-DESC
+	s.description      = <<-DESC
 Components layout for iOS application.
 Created by Luo Yu.
-                       DESC
+					   DESC
 
-  s.homepage         = 'https://github.com/blodely/LYCompLayout'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+	s.homepage         = 'https://github.com/blodely/LYCompLayout'
+	# s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
 
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'blodely' => 'indie.luo@gmail.com' }
-  s.source           = { :git => 'https://github.com/blodely/LYCompLayout.git', :tag => s.version.to_s }
+	s.license          = { :type => 'MIT', :file => 'LICENSE' }
+	s.author           = { 'blodely' => 'indie.luo@gmail.com' }
+	s.source           = { :git => 'https://github.com/blodely/LYCompLayout.git', :tag => s.version.to_s }
 
-  s.social_media_url = 'https://weibo.com/blodely'
+	s.social_media_url = 'https://weibo.com/blodely'
 
-  s.ios.deployment_target = '8.2'
+	s.ios.deployment_target = '7.0'
 
-  s.source_files = 'LYCompLayout/Classes/Models/*', 'LYCompLayout/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'LYCompLayout' => ['LYCompLayout/Assets/*.png']
-  # }
+	s.source_files = 'LYCompLayout/Classes/Models/*', 'LYCompLayout/Classes/**/*'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+	# s.resource_bundles = {
+	#   'LYCompLayout' => ['LYCompLayout/Assets/*.png']
+	# }
+
+	# s.public_header_files = 'Pod/Classes/**/*.h'
+	# s.frameworks = 'UIKit', 'MapKit'
+	# s.dependency 'AFNetworking', '~> 2.3'
+
+	s.frameworks = 'UIKit'
 
 end
