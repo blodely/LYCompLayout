@@ -1,11 +1,15 @@
+source 'https://github.com/blodely/LYSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '7.0'
+
 use_frameworks!
 
 target 'LYCompLayout_Example' do
-  pod 'LYCompLayout', :path => '../'
+	pod 'LYCompLayout', :path => '../'
 
-  target 'LYCompLayout_Tests' do
-    inherit! :search_paths
-
+	target 'LYCompLayout_Tests' do
+		inherit! :search_paths
     
-  end
+	end
 end
