@@ -10,4 +10,8 @@
 
 @implementation LYLayoutItem
 
+- (NSDictionary *)toDictionary {
+	return @{};
+}
+
 @end
