@@ -1,0 +1,16 @@
+PODS:
+  - LYCompLayout (0.1.0)
+
+DEPENDENCIES:
+  - LYCompLayout (from `../`)
+
+EXTERNAL SOURCES:
+  LYCompLayout:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LYCompLayout: e3ced29430f02d2e4e8a1acb1bf6e74e7ad06905
+
+PODFILE CHECKSUM: 2e41a44dfb760ab4c1137c6a77e760215e0cc137
+
+COCOAPODS: 1.11.2
